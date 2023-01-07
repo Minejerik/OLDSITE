@@ -1,0 +1,29 @@
+html, body {
+  height: 100%;
+  width: 100%;
+	background-color:#545050;
+	color:white;
+	overflow: hidden; /* Hide scrollbars */
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.div-img{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    padding-top:20%;
+}
+img{
+    transition: transform .2s;
+    width:256px;
+    height:256px;
+    border-radius: 10px;
+}
+img:hover{
+    transform:scale(1.2);
+}
