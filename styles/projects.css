@@ -10,7 +10,7 @@ html, body {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(3, 5vw);
-    grid-gap: 35px;
+    grid-gap: 57px;
 }
 
 
@@ -26,6 +26,11 @@ html, body {
     display:flex;
     padding-top:20%;
 }
+
+.gallery__img:hover{
+    transform:scale(1.2);
+}
+
 img{
     transition: transform .2s;
     width:256px;
