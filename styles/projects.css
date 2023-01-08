@@ -27,16 +27,12 @@ html, body {
     padding-top:20%;
 }
 
-.gallery__img:hover{
-    transform:scale(1.2);
-}
 
 img{
-    transition: transform .2s;
     width:256px;
     height:256px;
     border-radius: 10px;
 }
 img:hover{
-    transform:scale(1.2);
+    transform:scale(1.09);
 }
